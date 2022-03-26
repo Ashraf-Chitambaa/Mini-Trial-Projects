@@ -1,0 +1,55 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aliceblue;
+    scroll-behavior: smooth;
+    display: grid;
+}
+
+.first-project {
+    display: grid;
+    min-height: 95vh;
+    background-color: aquamarine;
+    place-content: center;
+    place-items: center;
+    row-gap: 3em;
+}
+.first-project h1 {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+.counter-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3em;
+}
+
+.counter-wrapper  > div {
+    text-align: center;
+}
+
+.counter {
+    font-size: 3rem;
+}
+
+.first-background {
+    background-color: #1d1c1c;
+    color: whitesmoke !important;
+}
+
+.second-background {
+    background-color: #149eb6;
+    color:  #0a0a0a;
+}
+
+.third-background {
+    background-color: #14b665;
+    color:  #662626;
+}
+
+/* my focus is not on responsiveness */
